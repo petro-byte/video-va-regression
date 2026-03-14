@@ -1,0 +1,107 @@
+[
+  {
+    "regex": "^tempogram_32_63$",
+    "normalize": true,
+    "used_aggregates": [
+      "std",
+      "skewness",
+      "kurtosis",
+      "median",
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_0_31$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "std",
+      "max",
+      "mean",
+      "energy"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_64_95$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "std",
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_224_255$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "std",
+      "energy"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_160_191$",
+    "normalize": true,
+    "used_aggregates": [
+      "slope",
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_320_351$",
+    "normalize": true,
+    "used_aggregates": [
+      "mean",
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_192_223$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis",
+      "slope"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_288_319$",
+    "normalize": true,
+    "used_aggregates": [
+      "std"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_128_159$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "mean"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_256_287$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_96_127$",
+    "normalize": true,
+    "used_aggregates": [
+      "mean",
+      "median"
+    ],
+    "target": "arousal"
+  }
+]

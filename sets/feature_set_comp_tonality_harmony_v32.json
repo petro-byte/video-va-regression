@@ -1,0 +1,202 @@
+[
+  {
+    "regex": "^spec_contr_0$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "max",
+      "std"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^spec_contr_6$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "median"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_cqt_5$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "std",
+      "median"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_cqt_3$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^tonal_centroid_3$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^spec_contr_5$",
+    "normalize": true,
+    "used_aggregates": [
+      "max"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_t_1$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_t_5$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "min"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_t_11$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_cqt_4$",
+    "normalize": true,
+    "used_aggregates": [
+      "energy"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_cqt_1$",
+    "normalize": true,
+    "used_aggregates": [
+      "max"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^spec_contr_3$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_cqt_7$",
+    "normalize": true,
+    "used_aggregates": [
+      "mean"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^tonal_centroid_4$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "mean"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_s_1$",
+    "normalize": true,
+    "used_aggregates": [
+      "min"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_s_6$",
+    "normalize": true,
+    "used_aggregates": [
+      "min"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_s_5$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_t_2$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "slope"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_cqt_11$",
+    "normalize": true,
+    "used_aggregates": [
+      "mean"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_t_7$",
+    "normalize": true,
+    "used_aggregates": [
+      "std"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^tonal_centroid_5$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^tonal_centroid_2$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^spec_contr_4$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^chroma_cqt_2$",
+    "normalize": true,
+    "used_aggregates": [
+      "std"
+    ],
+    "target": "valence"
+  }
+]

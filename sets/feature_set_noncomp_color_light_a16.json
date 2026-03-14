@@ -1,0 +1,95 @@
+[
+  {
+    "regex": "^colorfulnesss$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^mean_saturation$",
+    "normalize": true,
+    "used_aggregates": [
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^color_energy$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^r_com_x2$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "min"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^mean_brightness$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "kurtosis"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^dominant_color_2_R$",
+    "normalize": true,
+    "used_aggregates": [
+      "std"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^g_com_x2$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis",
+      "std"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^color_activity$",
+    "normalize": true,
+    "used_aggregates": [
+      "min"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^r_com_x1$",
+    "normalize": true,
+    "used_aggregates": [
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^dominant_color_1_R$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^color_weight$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis"
+    ],
+    "target": "arousal"
+  }
+]

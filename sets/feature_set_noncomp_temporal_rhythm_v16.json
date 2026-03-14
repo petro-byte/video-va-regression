@@ -1,0 +1,53 @@
+[
+  {
+    "regex": "^onset_frame$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis",
+      "slope",
+      "std",
+      "energy"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^sub_ons_3$",
+    "normalize": true,
+    "used_aggregates": [
+      "std",
+      "median",
+      "max"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^sub_ons_1$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "median"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^sub_ons_2$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "mean",
+      "max"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^sub_ons_0$",
+    "normalize": true,
+    "used_aggregates": [
+      "mean",
+      "max",
+      "min",
+      "slope"
+    ],
+    "target": "valence"
+  }
+]

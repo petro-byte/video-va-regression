@@ -1,0 +1,39 @@
+[
+  {
+    "regex": "^motion_continuity$",
+    "normalize": true,
+    "used_aggregates": [
+      "std",
+      "skewness",
+      "min",
+      "mean",
+      "median",
+      "slope",
+      "energy"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^fast_motion$",
+    "normalize": true,
+    "used_aggregates": [
+      "std",
+      "kurtosis",
+      "min",
+      "skewness",
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^ac_global$",
+    "normalize": true,
+    "used_aggregates": [
+      "std",
+      "min",
+      "mean",
+      "energy"
+    ],
+    "target": "arousal"
+  }
+]

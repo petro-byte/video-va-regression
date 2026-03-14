@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/video_va_regression/__init__.py
+src/video_va_regression/cli.py
+src/video_va_regression/config.py
+src/video_va_regression/dataset.py
+src/video_va_regression/model.py
+src/video_va_regression/utils.py
+src/video_va_regression.egg-info/PKG-INFO
+src/video_va_regression.egg-info/SOURCES.txt
+src/video_va_regression.egg-info/dependency_links.txt
+src/video_va_regression.egg-info/entry_points.txt
+src/video_va_regression.egg-info/not-zip-safe
+src/video_va_regression.egg-info/requires.txt
+src/video_va_regression.egg-info/top_level.txt

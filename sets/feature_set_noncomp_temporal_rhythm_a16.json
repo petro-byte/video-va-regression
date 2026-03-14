@@ -1,0 +1,53 @@
+[
+  {
+    "regex": "^sub_ons_3$",
+    "normalize": true,
+    "used_aggregates": [
+      "std",
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^sub_ons_1$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "slope",
+      "mean",
+      "max",
+      "skewness",
+      "energy"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^onset_frame$",
+    "normalize": true,
+    "used_aggregates": [
+      "std"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^sub_ons_2$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "max",
+      "mean",
+      "slope"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^sub_ons_0$",
+    "normalize": true,
+    "used_aggregates": [
+      "mean",
+      "max",
+      "std"
+    ],
+    "target": "arousal"
+  }
+]

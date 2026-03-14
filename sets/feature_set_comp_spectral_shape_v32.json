@@ -1,0 +1,104 @@
+[
+  {
+    "regex": "^magnitude_bin_0$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "median",
+      "kurtosis",
+      "std",
+      "min",
+      "mean"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^magnitude_bin_5$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "kurtosis",
+      "max",
+      "median"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^magnitude_bin_2$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "std",
+      "min",
+      "skewness"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^magnitude_bin_3$",
+    "normalize": true,
+    "used_aggregates": [
+      "std",
+      "min"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^magnitude_bin_4$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "skewness",
+      "slope",
+      "kurtosis",
+      "min"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^magnitude_bin_7$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "max",
+      "slope"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^magnitude_bin_1$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis",
+      "min",
+      "slope"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^magnitude_bin_8$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "min"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^magnitude_bin_9$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "median"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^magnitude_bin_6$",
+    "normalize": true,
+    "used_aggregates": [
+      "slope"
+    ],
+    "target": "valence"
+  }
+]

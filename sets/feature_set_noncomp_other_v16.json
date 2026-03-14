@@ -1,0 +1,46 @@
+[
+  {
+    "regex": "^pcm_zcr$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "kurtosis",
+      "max",
+      "mean"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^pcm_zcr_sma$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "kurtosis",
+      "skewness",
+      "energy",
+      "slope"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^oenv$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "mean",
+      "slope"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^mean_mag$",
+    "normalize": true,
+    "used_aggregates": [
+      "std",
+      "energy",
+      "median",
+      "kurtosis"
+    ],
+    "target": "valence"
+  }
+]

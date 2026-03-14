@@ -1,0 +1,53 @@
+[
+  {
+    "regex": "^F0$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "slope",
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^voiceProb_sma$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis",
+      "median",
+      "skewness",
+      "max",
+      "mean"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^voiceProb$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "mean"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^F0env$",
+    "normalize": true,
+    "used_aggregates": [
+      "energy",
+      "max",
+      "skewness",
+      "median",
+      "mean"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^F0env_sma$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "arousal"
+  }
+]

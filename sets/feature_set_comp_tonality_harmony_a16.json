@@ -1,0 +1,109 @@
+[
+  {
+    "regex": "^spec_contr_0$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^chroma_cqt_3$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^spec_contr_5$",
+    "normalize": true,
+    "used_aggregates": [
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tonal_centroid_3$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^spec_contr_2$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tonal_centroid_1$",
+    "normalize": true,
+    "used_aggregates": [
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^chroma_cqt_11$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tonal_centroid_2$",
+    "normalize": true,
+    "used_aggregates": [
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^chroma_cqt_6$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "energy"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^chroma_cqt_5$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^chroma_s_1$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^chroma_cqt_4$",
+    "normalize": true,
+    "used_aggregates": [
+      "energy"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^chroma_t_3$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "arousal"
+  }
+]

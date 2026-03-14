@@ -1,0 +1,67 @@
+[
+  {
+    "regex": "^rms_energy$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "max",
+      "mean",
+      "std",
+      "energy",
+      "kurtosis"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^pcm_loudness_sma$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "skewness",
+      "energy",
+      "max",
+      "mean"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^pcm_intensity$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "skewness",
+      "kurtosis",
+      "slope",
+      "std",
+      "energy"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^pcm_intensity_sma$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "slope",
+      "max",
+      "median",
+      "kurtosis",
+      "min"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^pcm_loudness$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis",
+      "skewness",
+      "median",
+      "max",
+      "mean",
+      "energy",
+      "std"
+    ],
+    "target": "valence"
+  }
+]

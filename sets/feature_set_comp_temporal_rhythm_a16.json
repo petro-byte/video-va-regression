@@ -1,0 +1,67 @@
+[
+  {
+    "regex": "^tempogram_32_63$",
+    "normalize": true,
+    "used_aggregates": [
+      "std",
+      "skewness",
+      "kurtosis",
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_0_31$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "std",
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_64_95$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "std"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_224_255$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "std"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_160_191$",
+    "normalize": true,
+    "used_aggregates": [
+      "slope",
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_320_351$",
+    "normalize": true,
+    "used_aggregates": [
+      "mean"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^tempogram_192_223$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis",
+      "slope"
+    ],
+    "target": "arousal"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "regex": "^magnitude_bin_2$",
+    "normalize": true,
+    "used_aggregates": [
+      "energy",
+      "median",
+      "min"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^magnitude_bin_6$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^magnitude_bin_0$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "median",
+      "kurtosis"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^magnitude_bin_1$",
+    "normalize": true,
+    "used_aggregates": [
+      "std",
+      "slope",
+      "energy"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^magnitude_bin_4$",
+    "normalize": true,
+    "used_aggregates": [
+      "slope"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^magnitude_bin_3$",
+    "normalize": true,
+    "used_aggregates": [
+      "energy",
+      "skewness",
+      "mean"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^magnitude_bin_8$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^magnitude_bin_5$",
+    "normalize": true,
+    "used_aggregates": [
+      "min"
+    ],
+    "target": "arousal"
+  }
+]

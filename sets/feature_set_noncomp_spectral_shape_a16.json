@@ -1,0 +1,74 @@
+[
+  {
+    "regex": "^spectral_variation$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "min",
+      "kurtosis"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^spectral_decrease$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "mean"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^spectral_flux$",
+    "normalize": true,
+    "used_aggregates": [
+      "energy",
+      "median",
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^kurtosis$",
+    "normalize": true,
+    "used_aggregates": [
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^skewness$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^spec_bw_time$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^centroid$",
+    "normalize": true,
+    "used_aggregates": [
+      "energy"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^spectral_rolloff$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "energy"
+    ],
+    "target": "arousal"
+  }
+]

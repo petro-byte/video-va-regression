@@ -1,0 +1,75 @@
+[
+  {
+    "regex": "^voiceProb_sma$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "std",
+      "kurtosis",
+      "energy"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^voiceProb$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "skewness",
+      "median",
+      "max",
+      "mean",
+      "energy"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^F0_sma$",
+    "normalize": true,
+    "used_aggregates": [
+      "energy",
+      "kurtosis",
+      "slope",
+      "mean",
+      "std",
+      "skewness"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^F0$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "slope",
+      "mean",
+      "skewness",
+      "energy",
+      "std"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^F0env$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "mean",
+      "max"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^F0env_sma$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "skewness",
+      "energy",
+      "max",
+      "mean",
+      "kurtosis"
+    ],
+    "target": "valence"
+  }
+]

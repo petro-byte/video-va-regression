@@ -1,0 +1,111 @@
+[
+  {
+    "regex": "^spectral_variation$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "median",
+      "kurtosis"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^spectral_decrease$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "mean"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^kurtosis$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "slope"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^spec_bw_time$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "max",
+      "slope",
+      "std"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^spectral_flux$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "max",
+      "energy"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^spread$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "kurtosis",
+      "skewness",
+      "mean"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^spectral_rolloff$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "kurtosis",
+      "min",
+      "std"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^cent_time$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "mean"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^skewness$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "kurtosis",
+      "median",
+      "max",
+      "mean"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^centroid$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "kurtosis"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^spectral_flatness$",
+    "normalize": true,
+    "used_aggregates": [
+      "mean"
+    ],
+    "target": "valence"
+  }
+]

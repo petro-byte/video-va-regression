@@ -1,0 +1,162 @@
+[
+    {
+        "model_name": "lgbmuy-419a652-final",
+        "used_aggregates": [
+            "energy",
+            "kurtosis",
+            "max",
+            "mean",
+            "median",
+            "min",
+            "skewness",
+            "slope",
+            "std"
+        ],
+        "feature_sets": [
+            "./sets/feature_set_comp_cepstral_prediction_v16.json",
+            "./sets/feature_set_comp_cepstral_prediction_a16.json",
+            "./sets/feature_set_comp_spectral_shape_v16.json",
+            "./sets/feature_set_comp_spectral_shape_a16.json",
+            "./sets/feature_set_comp_temporal_rhythm_v16.json",
+            "./sets/feature_set_comp_temporal_rhythm_a16.json",
+            "./sets/feature_set_comp_tonality_harmony_v16.json",
+            "./sets/feature_set_comp_tonality_harmony_a16.json",
+            "./sets/feature_set_noncomp_color_light_v16.json",
+            "./sets/feature_set_noncomp_color_light_a16.json",
+            "./sets/feature_set_noncomp_motion_dynamics_v16.json",
+            "./sets/feature_set_noncomp_motion_dynamics_a16.json",
+            "./sets/feature_set_noncomp_other_v16.json",
+            "./sets/feature_set_noncomp_other_a16.json",
+            "./sets/feature_set_noncomp_pitch_voice_v16.json",
+            "./sets/feature_set_noncomp_pitch_voice_a16.json",
+            "./sets/feature_set_noncomp_spectral_shape_v16.json",
+            "./sets/feature_set_noncomp_spectral_shape_a16.json"
+        ],
+        "learning_rate": 0.02,
+        "n_estimators": 2400,
+        "num_leaves": 95,
+        "max_depth": -1,
+        "reg_lambda": 2.0,
+        "reg_alpha": 0.1,
+        "random_state": 42,
+        "counts": {
+            "valence": 143,
+            "arousal": 144,
+            "both": 144
+        }
+    },
+    {
+        "model_name": "lgbmeh-eea06c1-final",
+        "used_aggregates": [
+            "energy",
+            "kurtosis",
+            "max",
+            "mean",
+            "median",
+            "min",
+            "skewness",
+            "slope",
+            "std"
+        ],
+        "feature_sets": [
+            "./sets/feature_set_comp_spectral_shape_v16.json",
+            "./sets/feature_set_comp_spectral_shape_a16.json",
+            "./sets/feature_set_comp_tonality_harmony_v16.json",
+            "./sets/feature_set_comp_tonality_harmony_a16.json",
+            "./sets/feature_set_noncomp_color_light_v16.json",
+            "./sets/feature_set_noncomp_color_light_a16.json"
+        ],
+        "learning_rate": 0.03,
+        "n_estimators": 1800,
+        "num_leaves": 95,
+        "max_depth": -1,
+        "reg_lambda": 0.5,
+        "reg_alpha": 0.0,
+        "random_state": 42,
+        "counts": {
+            "valence": 48,
+            "arousal": 48,
+            "both": 48
+        }
+    },
+    {
+        "model_name": "lgbmv6-84f7612-final",
+        "used_aggregates": [
+            "energy",
+            "kurtosis",
+            "max",
+            "mean",
+            "median",
+            "min",
+            "skewness",
+            "slope",
+            "std"
+        ],
+        "feature_sets": [
+            "./sets/feature_set_comp_cepstral_prediction_v16.json",
+            "./sets/feature_set_comp_cepstral_prediction_a16.json",
+            "./sets/feature_set_comp_spectral_shape_v16.json",
+            "./sets/feature_set_comp_spectral_shape_a16.json",
+            "./sets/feature_set_comp_temporal_rhythm_v16.json",
+            "./sets/feature_set_comp_temporal_rhythm_a16.json",
+            "./sets/feature_set_comp_tonality_harmony_v16.json",
+            "./sets/feature_set_comp_tonality_harmony_a16.json",
+            "./sets/feature_set_noncomp_color_light_v16.json",
+            "./sets/feature_set_noncomp_color_light_a16.json",
+            "./sets/feature_set_noncomp_motion_dynamics_v16.json",
+            "./sets/feature_set_noncomp_motion_dynamics_a16.json",
+            "./sets/feature_set_noncomp_other_v16.json",
+            "./sets/feature_set_noncomp_other_a16.json",
+            "./sets/feature_set_noncomp_spectral_shape_v16.json",
+            "./sets/feature_set_noncomp_spectral_shape_a16.json",
+            "./sets/feature_set_noncomp_temporal_rhythm_v16.json",
+            "./sets/feature_set_noncomp_temporal_rhythm_a16.json"
+        ],
+        "learning_rate": 0.02,
+        "n_estimators": 2400,
+        "num_leaves": 95,
+        "max_depth": -1,
+        "reg_lambda": 2.0,
+        "reg_alpha": 0.1,
+        "random_state": 42,
+        "counts": {
+            "valence": 143,
+            "arousal": 144,
+            "both": 144
+        }
+    },
+    {
+        "model_name": "lgbmfp-78d3c21-final",
+        "used_aggregates": [
+            "energy",
+            "kurtosis",
+            "max",
+            "mean",
+            "median",
+            "min",
+            "skewness",
+            "slope",
+            "std"
+        ],
+        "feature_sets": [
+            "./sets/feature_set_comp_spectral_shape_v16.json",
+            "./sets/feature_set_comp_spectral_shape_a16.json",
+            "./sets/feature_set_noncomp_color_light_v16.json",
+            "./sets/feature_set_noncomp_color_light_a16.json",
+            "./sets/feature_set_noncomp_spectral_shape_v16.json",
+            "./sets/feature_set_noncomp_spectral_shape_a16.json"
+        ],
+        "learning_rate": 0.03,
+        "n_estimators": 1800,
+        "num_leaves": 95,
+        "max_depth": -1,
+        "reg_lambda": 0.5,
+        "reg_alpha": 0.0,
+        "random_state": 42,
+        "counts": {
+            "valence": 48,
+            "arousal": 48,
+            "both": 48
+        }
+    }
+]

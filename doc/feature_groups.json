@@ -1,0 +1,450 @@
+[
+    {
+        "name": "rgb_com",
+        "regex": "^[bgr]_com_x[12]$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "video",
+        "category": "color_light"
+    },
+    {
+        "name": "dominant_color",
+        "regex": "^dominant_color_[123]_[RGB]$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "video",
+        "category": "color_light"
+    },
+    {
+        "name": "chroma_cqt",
+        "regex": "^chroma_cqt_\\d{1,2}$",
+        "normalization": "std",
+        "composite": true,
+        "type": "audio",
+        "category": "tonality_harmony"
+    },
+    {
+        "name": "chroma_s",
+        "regex": "^chroma_s_\\d{1,2}$",
+        "normalization": "std",
+        "composite": true,
+        "type": "audio",
+        "category": "tonality_harmony"
+    },
+    {
+        "name": "chroma_t",
+        "regex": "^chroma_t_\\d{1,2}$",
+        "normalization": "std",
+        "composite": true,
+        "type": "audio",
+        "category": "tonality_harmony"
+    },
+    {
+        "name": "lpc",
+        "regex": "^lpc_\\d{1,2}$",
+        "normalization": "log_minmax",
+        "composite": true,
+        "type": "audio",
+        "category": "cepstral_prediction"
+    },
+    {
+        "name": "magnitude_bins",
+        "regex": "^magnitude_bin_\\d+$",
+        "normalization": "log_minmax",
+        "composite": true,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "mel_bands",
+        "regex": "^mel_band_\\d+$",
+        "normalization": "log_minmax",
+        "composite": true,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "octave_band",
+        "regex": "^octave_\\d+_\\d+$",
+        "normalization": "log_minmax",
+        "composite": true,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "sub_ons",
+        "regex": "^sub_ons_\\d$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "temporal_rhythm"
+    },
+    {
+        "name": "tempogram",
+        "regex": "^tempogram_\\d+_\\d+$",
+        "normalization": "log_minmax",
+        "composite": true,
+        "type": "audio",
+        "category": "temporal_rhythm"
+    },
+    {
+        "name": "beat_histogram",
+        "regex": "^beat_hist_\\d$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "temporal_rhythm"
+    },
+    {
+        "name": "F0",
+        "regex": "^F0$",
+        "normalization": "std",
+        "composite": false,
+        "type": "audio",
+        "category": "pitch_voice"
+    },
+    {
+        "name": "F0_sma",
+        "regex": "^F0_sma$",
+        "normalization": "std",
+        "composite": false,
+        "type": "audio",
+        "category": "pitch_voice"
+    },
+    {
+        "name": "F0env",
+        "regex": "^F0env$",
+        "normalization": "std",
+        "composite": false,
+        "type": "audio",
+        "category": "pitch_voice"
+    },
+    {
+        "name": "F0env_sma",
+        "regex": "^F0env_sma$",
+        "normalization": "std",
+        "composite": false,
+        "type": "audio",
+        "category": "pitch_voice"
+    },
+    {
+        "name": "pcm_intensity",
+        "regex": "^pcm_intensity$",
+        "normalization": "std",
+        "composite": false,
+        "type": "audio",
+        "category": "energy_loudness"
+    },
+    {
+        "name": "pcm_intensity_sma",
+        "regex": "^pcm_intensity_sma$",
+        "normalization": "std",
+        "composite": false,
+        "type": "audio",
+        "category": "energy_loudness"
+    },
+    {
+        "name": "pcm_loudness",
+        "regex": "^pcm_loudness$",
+        "normalization": "std",
+        "composite": false,
+        "type": "audio",
+        "category": "energy_loudness"
+    },
+    {
+        "name": "pcm_loudness_sma",
+        "regex": "^pcm_loudness_sma$",
+        "normalization": "std",
+        "composite": false,
+        "type": "audio",
+        "category": "energy_loudness"
+    },
+    {
+        "name": "pcm_zcr",
+        "regex": "^pcm_zcr$",
+        "normalization": "std",
+        "composite": false,
+        "type": "audio",
+        "category": "other"
+    },
+    {
+        "name": "pcm_zcr_sma",
+        "regex": "^pcm_zcr_sma$",
+        "normalization": "std",
+        "composite": false,
+        "type": "audio",
+        "category": "other"
+    },
+    {
+        "name": "voiceProb",
+        "regex": "^voiceProb$",
+        "normalization": "std",
+        "composite": false,
+        "type": "audio",
+        "category": "pitch_voice"
+    },
+    {
+        "name": "voiceProb_sma",
+        "regex": "^voiceProb_sma$",
+        "normalization": "std",
+        "composite": false,
+        "type": "audio",
+        "category": "pitch_voice"
+    },
+    {
+        "name": "mfcc",
+        "regex": "^mfcc\\[\\d{1,2}\\]$",
+        "normalization": "std",
+        "composite": true,
+        "type": "audio",
+        "category": "cepstral_prediction"
+    },
+    {
+        "name": "mfcc_sma",
+        "regex": "^mfcc_sma\\[\\d{1,2}\\]$",
+        "normalization": "std",
+        "composite": true,
+        "type": "audio",
+        "category": "cepstral_prediction"
+    },
+    {
+        "name": "lspFreq",
+        "regex": "^lspFreq\\[\\d\\]$",
+        "normalization": "std",
+        "composite": true,
+        "type": "audio",
+        "category": "cepstral_prediction"
+    },
+    {
+        "name": "lspFreq_sma",
+        "regex": "^lspFreq_sma\\[\\d\\]$",
+        "normalization": "std",
+        "composite": true,
+        "type": "audio",
+        "category": "cepstral_prediction"
+    },
+    {
+        "name": "tonal_centroid",
+        "regex": "^tonal_centroid_\\d$",
+        "normalization": "std",
+        "composite": true,
+        "type": "audio",
+        "category": "tonality_harmony"
+    },
+    {
+        "name": "spec_contr",
+        "regex": "^spec_contr_\\d$",
+        "normalization": "std",
+        "composite": true,
+        "type": "audio",
+        "category": "tonality_harmony"
+    },
+    {
+        "name": "colorfulness",
+        "regex": "^colorfulnesss$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "video",
+        "category": "color_light"
+    },
+    {
+        "name": "color_activity",
+        "regex": "^color_activity$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "video",
+        "category": "color_light"
+    },
+    {
+        "name": "color_energy",
+        "regex": "^color_energy$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "video",
+        "category": "color_light"
+    },
+    {
+        "name": "color_weight",
+        "regex": "^color_weight$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "video",
+        "category": "color_light"
+    },
+    {
+        "name": "lighting_key",
+        "regex": "^lighting_key$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "video",
+        "category": "color_light"
+    },
+    {
+        "name": "mean_brightness",
+        "regex": "^mean_brightness$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "video",
+        "category": "color_light"
+    },
+    {
+        "name": "mean_saturation",
+        "regex": "^mean_saturation$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "video",
+        "category": "color_light"
+    },
+    {
+        "name": "ac_global",
+        "regex": "^ac_global$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "video",
+        "category": "motion_dynamics"
+    },
+    {
+        "name": "oenv",
+        "regex": "^oenv$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "other"
+    },
+    {
+        "name": "rms_energy",
+        "regex": "^rms_energy$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "energy_loudness"
+    },
+    {
+        "name": "spec_bw_time",
+        "regex": "^spec_bw_time$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "spectral_flatness",
+        "regex": "^spectral_flatness$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "spectral_rolloff",
+        "regex": "^spectral_rolloff$",
+        "normalization": "log_minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "onset_frame",
+        "regex": "^onset_frame$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "temporal_rhythm"
+    },
+    {
+        "name": "fast_motion",
+        "regex": "^fast_motion$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "video",
+        "category": "motion_dynamics"
+    },
+    {
+        "name": "mean_mag",
+        "regex": "^mean_mag$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "other"
+    },
+    {
+        "name": "motion_continuity",
+        "regex": "^motion_continuity$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "video",
+        "category": "motion_dynamics"
+    },
+    {
+        "name": "spectral_decrease",
+        "regex": "^spectral_decrease$",
+        "normalization": "log_minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "spectral_flux",
+        "regex": "^spectral_flux$",
+        "normalization": "log_minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "spectral_slope",
+        "regex": "^spectral_slope$",
+        "normalization": "log_minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "spectral_variation",
+        "regex": "^spectral_variation$",
+        "normalization": "log_minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "cent_time",
+        "regex": "^cent_time$",
+        "normalization": "minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "centroid",
+        "regex": "^centroid$",
+        "normalization": "zscore",
+        "composite": false,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "spread",
+        "regex": "^spread$",
+        "normalization": "zscore",
+        "composite": false,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "skewness",
+        "regex": "^skewness$",
+        "normalization": "log_minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "spectral_shape"
+    },
+    {
+        "name": "kurtosis",
+        "regex": "^kurtosis$",
+        "normalization": "log_minmax",
+        "composite": false,
+        "type": "audio",
+        "category": "spectral_shape"
+    }
+]

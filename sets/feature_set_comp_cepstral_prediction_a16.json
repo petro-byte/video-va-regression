@@ -1,0 +1,116 @@
+[
+  {
+    "regex": "^mfcc_sma\\[8\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "slope",
+      "min"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^mfcc\\[12\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^mfcc_sma\\[3\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^mfcc_sma\\[11\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^lspFreq\\[7\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^lspFreq\\[6\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^lspFreq_sma\\[6\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^lspFreq_sma\\[1\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^lspFreq\\[3\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "kurtosis"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^lspFreq\\[5\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^lpc_13$",
+    "normalize": true,
+    "used_aggregates": [
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^mfcc\\[5\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "min"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^lspFreq_sma\\[5\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^lspFreq_sma\\[7\\]$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness"
+    ],
+    "target": "arousal"
+  }
+]

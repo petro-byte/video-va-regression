@@ -1,0 +1,146 @@
+[
+  {
+    "regex": "^colorfulnesss$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "median",
+      "energy",
+      "kurtosis",
+      "min"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^mean_saturation$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "min",
+      "energy"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^color_energy$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "median",
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^r_com_x2$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "min",
+      "kurtosis"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^mean_brightness$",
+    "normalize": true,
+    "used_aggregates": [
+      "min",
+      "kurtosis",
+      "median"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^dominant_color_2_R$",
+    "normalize": true,
+    "used_aggregates": [
+      "std",
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^g_com_x2$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis",
+      "std"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^color_activity$",
+    "normalize": true,
+    "used_aggregates": [
+      "min"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^r_com_x1$",
+    "normalize": true,
+    "used_aggregates": [
+      "max"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^dominant_color_1_R$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^color_weight$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis",
+      "min"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^dominant_color_1_G$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness",
+      "slope"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^b_com_x1$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^dominant_color_3_B$",
+    "normalize": true,
+    "used_aggregates": [
+      "slope"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^dominant_color_1_B$",
+    "normalize": true,
+    "used_aggregates": [
+      "kurtosis"
+    ],
+    "target": "arousal"
+  },
+  {
+    "regex": "^dominant_color_2_B$",
+    "normalize": true,
+    "used_aggregates": [
+      "skewness"
+    ],
+    "target": "arousal"
+  }
+]

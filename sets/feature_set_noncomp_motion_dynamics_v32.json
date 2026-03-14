@@ -1,0 +1,38 @@
+[
+  {
+    "regex": "^motion_continuity$",
+    "normalize": true,
+    "used_aggregates": [
+      "median",
+      "skewness",
+      "slope",
+      "kurtosis",
+      "std"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^fast_motion$",
+    "normalize": true,
+    "used_aggregates": [
+      "max",
+      "skewness",
+      "kurtosis",
+      "mean",
+      "median",
+      "min"
+    ],
+    "target": "valence"
+  },
+  {
+    "regex": "^ac_global$",
+    "normalize": true,
+    "used_aggregates": [
+      "mean",
+      "slope",
+      "std",
+      "energy"
+    ],
+    "target": "valence"
+  }
+]
