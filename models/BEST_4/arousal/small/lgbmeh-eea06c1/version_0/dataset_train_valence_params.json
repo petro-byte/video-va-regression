@@ -1,0 +1,258 @@
+{
+  "nan_fill_method": "none",
+  "used_aggregates": [
+    "energy",
+    "kurtosis",
+    "max",
+    "mean",
+    "median",
+    "min",
+    "skewness",
+    "slope",
+    "std"
+  ],
+  "sample_length": null,
+  "transform": true,
+  "split": [
+    "train"
+  ],
+  "feature_set": [
+    {
+      "regex": "^magnitude_bin_0$",
+      "normalize": true,
+      "used_aggregates": [
+        "max",
+        "median",
+        "kurtosis",
+        "std"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^magnitude_bin_5$",
+      "normalize": true,
+      "used_aggregates": [
+        "skewness",
+        "kurtosis"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^magnitude_bin_2$",
+      "normalize": true,
+      "used_aggregates": [
+        "max",
+        "std",
+        "min"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^magnitude_bin_3$",
+      "normalize": true,
+      "used_aggregates": [
+        "std"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^magnitude_bin_4$",
+      "normalize": true,
+      "used_aggregates": [
+        "max"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^magnitude_bin_7$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^magnitude_bin_1$",
+      "normalize": true,
+      "used_aggregates": [
+        "kurtosis",
+        "min",
+        "slope"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^magnitude_bin_8$",
+      "normalize": true,
+      "used_aggregates": [
+        "max"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^spec_contr_0$",
+      "normalize": true,
+      "used_aggregates": [
+        "median",
+        "max",
+        "std"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^spec_contr_6$",
+      "normalize": true,
+      "used_aggregates": [
+        "skewness",
+        "median"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^chroma_cqt_5$",
+      "normalize": true,
+      "used_aggregates": [
+        "max"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^chroma_cqt_3$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^tonal_centroid_3$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^spec_contr_5$",
+      "normalize": true,
+      "used_aggregates": [
+        "max"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^chroma_t_1$",
+      "normalize": true,
+      "used_aggregates": [
+        "skewness"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^chroma_t_5$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^chroma_t_11$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^chroma_cqt_4$",
+      "normalize": true,
+      "used_aggregates": [
+        "energy"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^chroma_cqt_1$",
+      "normalize": true,
+      "used_aggregates": [
+        "max"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^spec_contr_3$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^chroma_cqt_7$",
+      "normalize": true,
+      "used_aggregates": [
+        "mean"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^color_energy$",
+      "normalize": true,
+      "used_aggregates": [
+        "mean",
+        "max",
+        "energy",
+        "min"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^colorfulnesss$",
+      "normalize": true,
+      "used_aggregates": [
+        "energy",
+        "max",
+        "median",
+        "min"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^mean_saturation$",
+      "normalize": true,
+      "used_aggregates": [
+        "mean",
+        "max",
+        "energy"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^mean_brightness$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^color_activity$",
+      "normalize": true,
+      "used_aggregates": [
+        "max",
+        "min",
+        "mean"
+      ],
+      "target": "valence"
+    },
+    {
+      "regex": "^r_com_x2$",
+      "normalize": true,
+      "used_aggregates": [
+        "min"
+      ],
+      "target": "valence"
+    }
+  ]
+}

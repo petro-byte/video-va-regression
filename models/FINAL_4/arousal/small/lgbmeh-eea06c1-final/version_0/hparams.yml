@@ -1,0 +1,31 @@
+{
+  "input_dim": 48,
+  "learning_rate": 0.03,
+  "num_leaves": 95,
+  "max_depth": -1,
+  "n_estimators": 1800,
+  "reg_lambda": 0.5,
+  "reg_alpha": 0.0,
+  "random_state": 42,
+  "objective": "regression",
+  "verbosity": -1,
+  "used_aggregates": [
+    "energy",
+    "kurtosis",
+    "max",
+    "mean",
+    "median",
+    "min",
+    "skewness",
+    "slope",
+    "std"
+  ],
+  "final_training": true,
+  "train_splits": [
+    "train",
+    "validation"
+  ],
+  "evaluation_split": [
+    "test"
+  ]
+}

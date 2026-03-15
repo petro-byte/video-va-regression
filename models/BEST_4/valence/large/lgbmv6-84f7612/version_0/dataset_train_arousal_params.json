@@ -1,0 +1,676 @@
+{
+  "nan_fill_method": "none",
+  "used_aggregates": [
+    "energy",
+    "kurtosis",
+    "max",
+    "mean",
+    "median",
+    "min",
+    "skewness",
+    "slope",
+    "std"
+  ],
+  "sample_length": null,
+  "transform": true,
+  "split": [
+    "train"
+  ],
+  "feature_set": [
+    {
+      "regex": "^mfcc_sma\\[8\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "slope",
+        "min"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^mfcc\\[12\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^mfcc_sma\\[3\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "skewness"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^mfcc_sma\\[11\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "max"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^lspFreq\\[7\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "skewness"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^lspFreq\\[6\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^lspFreq_sma\\[6\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "kurtosis"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^lspFreq_sma\\[1\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "kurtosis"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^lspFreq\\[3\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "max",
+        "kurtosis"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^lspFreq\\[5\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "kurtosis"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^lpc_13$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^mfcc\\[5\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "min"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^lspFreq_sma\\[5\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "skewness"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^lspFreq_sma\\[7\\]$",
+      "normalize": true,
+      "used_aggregates": [
+        "skewness"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^magnitude_bin_2$",
+      "normalize": true,
+      "used_aggregates": [
+        "energy",
+        "median",
+        "min"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^magnitude_bin_6$",
+      "normalize": true,
+      "used_aggregates": [
+        "skewness"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^magnitude_bin_0$",
+      "normalize": true,
+      "used_aggregates": [
+        "max",
+        "median",
+        "kurtosis"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^magnitude_bin_1$",
+      "normalize": true,
+      "used_aggregates": [
+        "std",
+        "slope",
+        "energy"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^magnitude_bin_4$",
+      "normalize": true,
+      "used_aggregates": [
+        "slope"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^magnitude_bin_3$",
+      "normalize": true,
+      "used_aggregates": [
+        "energy",
+        "skewness",
+        "mean"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^magnitude_bin_8$",
+      "normalize": true,
+      "used_aggregates": [
+        "skewness"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^magnitude_bin_5$",
+      "normalize": true,
+      "used_aggregates": [
+        "min"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^tempogram_32_63$",
+      "normalize": true,
+      "used_aggregates": [
+        "std",
+        "skewness",
+        "kurtosis",
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^tempogram_0_31$",
+      "normalize": true,
+      "used_aggregates": [
+        "skewness",
+        "std",
+        "max"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^tempogram_64_95$",
+      "normalize": true,
+      "used_aggregates": [
+        "min",
+        "std"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^tempogram_224_255$",
+      "normalize": true,
+      "used_aggregates": [
+        "max",
+        "std"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^tempogram_160_191$",
+      "normalize": true,
+      "used_aggregates": [
+        "slope",
+        "skewness"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^tempogram_320_351$",
+      "normalize": true,
+      "used_aggregates": [
+        "mean"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^tempogram_192_223$",
+      "normalize": true,
+      "used_aggregates": [
+        "kurtosis",
+        "slope"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^spec_contr_0$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^chroma_cqt_3$",
+      "normalize": true,
+      "used_aggregates": [
+        "min",
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^spec_contr_5$",
+      "normalize": true,
+      "used_aggregates": [
+        "max"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^tonal_centroid_3$",
+      "normalize": true,
+      "used_aggregates": [
+        "min",
+        "max"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^spec_contr_2$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^tonal_centroid_1$",
+      "normalize": true,
+      "used_aggregates": [
+        "max"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^chroma_cqt_11$",
+      "normalize": true,
+      "used_aggregates": [
+        "kurtosis"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^tonal_centroid_2$",
+      "normalize": true,
+      "used_aggregates": [
+        "max"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^chroma_cqt_6$",
+      "normalize": true,
+      "used_aggregates": [
+        "max",
+        "energy"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^chroma_cqt_5$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^chroma_s_1$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^chroma_cqt_4$",
+      "normalize": true,
+      "used_aggregates": [
+        "energy"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^chroma_t_3$",
+      "normalize": true,
+      "used_aggregates": [
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^colorfulnesss$",
+      "normalize": true,
+      "used_aggregates": [
+        "max",
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^mean_saturation$",
+      "normalize": true,
+      "used_aggregates": [
+        "max"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^color_energy$",
+      "normalize": true,
+      "used_aggregates": [
+        "min",
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^r_com_x2$",
+      "normalize": true,
+      "used_aggregates": [
+        "skewness",
+        "min"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^mean_brightness$",
+      "normalize": true,
+      "used_aggregates": [
+        "min",
+        "kurtosis"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^dominant_color_2_R$",
+      "normalize": true,
+      "used_aggregates": [
+        "std"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^g_com_x2$",
+      "normalize": true,
+      "used_aggregates": [
+        "kurtosis",
+        "std"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^color_activity$",
+      "normalize": true,
+      "used_aggregates": [
+        "min"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^r_com_x1$",
+      "normalize": true,
+      "used_aggregates": [
+        "max"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^dominant_color_1_R$",
+      "normalize": true,
+      "used_aggregates": [
+        "skewness"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^color_weight$",
+      "normalize": true,
+      "used_aggregates": [
+        "kurtosis"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^motion_continuity$",
+      "normalize": true,
+      "used_aggregates": [
+        "std",
+        "skewness",
+        "min",
+        "mean",
+        "median",
+        "slope",
+        "energy"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^fast_motion$",
+      "normalize": true,
+      "used_aggregates": [
+        "std",
+        "kurtosis",
+        "min",
+        "skewness",
+        "median"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^ac_global$",
+      "normalize": true,
+      "used_aggregates": [
+        "std",
+        "min",
+        "mean",
+        "energy"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^pcm_zcr$",
+      "normalize": true,
+      "used_aggregates": [
+        "median",
+        "max",
+        "kurtosis",
+        "skewness",
+        "mean",
+        "std"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^mean_mag$",
+      "normalize": true,
+      "used_aggregates": [
+        "min",
+        "std"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^pcm_zcr_sma$",
+      "normalize": true,
+      "used_aggregates": [
+        "median",
+        "slope",
+        "min",
+        "max",
+        "mean",
+        "energy",
+        "std"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^oenv$",
+      "normalize": true,
+      "used_aggregates": [
+        "slope"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^spectral_variation$",
+      "normalize": true,
+      "used_aggregates": [
+        "median",
+        "min",
+        "kurtosis"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^spectral_decrease$",
+      "normalize": true,
+      "used_aggregates": [
+        "median",
+        "mean"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^spectral_flux$",
+      "normalize": true,
+      "used_aggregates": [
+        "energy",
+        "median",
+        "skewness"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^kurtosis$",
+      "normalize": true,
+      "used_aggregates": [
+        "max"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^skewness$",
+      "normalize": true,
+      "used_aggregates": [
+        "median",
+        "skewness"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^spec_bw_time$",
+      "normalize": true,
+      "used_aggregates": [
+        "median",
+        "max"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^centroid$",
+      "normalize": true,
+      "used_aggregates": [
+        "energy"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^spectral_rolloff$",
+      "normalize": true,
+      "used_aggregates": [
+        "max",
+        "energy"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^sub_ons_3$",
+      "normalize": true,
+      "used_aggregates": [
+        "std",
+        "max"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^sub_ons_1$",
+      "normalize": true,
+      "used_aggregates": [
+        "median",
+        "slope",
+        "mean",
+        "max",
+        "skewness",
+        "energy"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^onset_frame$",
+      "normalize": true,
+      "used_aggregates": [
+        "std"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^sub_ons_2$",
+      "normalize": true,
+      "used_aggregates": [
+        "median",
+        "max",
+        "mean",
+        "slope"
+      ],
+      "target": "arousal"
+    },
+    {
+      "regex": "^sub_ons_0$",
+      "normalize": true,
+      "used_aggregates": [
+        "mean",
+        "max",
+        "std"
+      ],
+      "target": "arousal"
+    }
+  ]
+}
