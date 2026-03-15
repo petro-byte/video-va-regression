@@ -36,6 +36,30 @@ The README focuses on **how to reproduce the experiments**, while the accompanyi
 
 ---
 
+## Research Report
+
+The scientific background, methodology, and experimental analysis are described in the accompanying report:
+
+📄 [Predicting the Emotional Impact of Videoclips](doc/Predicting_the_Emotional_Impact_of_Videoclips.pdf)
+
+---
+
+## Dataset Subset
+
+The original **LIRIS-ACCEDE** dataset contains approximately **9,800 video clips**.
+
+Due to repository size constraints, this repository only includes a **small illustrative subset (150 samples)** consisting of:
+
+- 50 training samples
+- 50 validation samples
+- 50 test samples
+
+These files are provided solely to demonstrate the **expected data structure and pipeline functionality**.
+
+For access to the full dataset of extracted features please contact me personally.
+
+---
+
 ## Repository Structure
 
 The repository follows a modular structure that mirrors the experimental pipeline:
