@@ -20,8 +20,6 @@ In contrast to recent deep-learning-based approaches, this work explicitly prior
 The repository is structured as a complete research artifact: given identical inputs and
 configuration files, the pipeline produces deterministic and reproducible results.
 
----
-
 ## Reproducibility as a Design Principle
 
 Reproducibility is a central design goal of this project.
@@ -34,15 +32,11 @@ Reproducibility is a central design goal of this project.
 
 The README focuses on **how to reproduce the experiments**, while the accompanying report focuses on **scientific motivation, methodology, and analysis**.
 
----
-
 ## Research Report
 
 The scientific background, methodology, and experimental analysis are described in the accompanying report:
 
 📄 [Predicting the Emotional Impact of Videoclips](doc/Predicting_the_Emotional_Impact_of_Videoclips.pdf)
-
----
 
 ## Dataset Subset
 
@@ -57,8 +51,6 @@ Due to repository size constraints, this repository only includes a **small illu
 These files are provided solely to demonstrate the **expected data structure and pipeline functionality**.
 
 For access to the full dataset of extracted features please contact me personally.
-
----
 
 ## Repository Structure
 
@@ -108,8 +100,6 @@ The repository follows a modular structure that mirrors the experimental pipelin
 └── README.md
 ```
 
----
-
 ## Environment Setup
 
 ### Python Version
@@ -134,8 +124,6 @@ pip install -e .
 
 All dependencies are defined and resolved through the setup script.
 
----
-
 ### Pre-processing Tools
 
 This section documents all auxiliary tools used before and after the core
@@ -148,8 +136,6 @@ All tools are located under:
 ```
 scripts/tools/
 ```
-
----
 
 #### 1. `create_labels.py` — Generate Annotation JSON Files
 
@@ -171,8 +157,6 @@ JSON files used throughout the pipeline.
 | `--sets-path` | `./doc/ACCEDEsets.txt` | ACCEDE split definitions | String (Path) |
 | `--output-dir` | `./data` | Output directory for `_annotation.json` files | String (Path) |
 
----
-
 #### 2. `create_index.py` — Build Movie-disjoint Splits
 
 **Purpose:**  
@@ -191,8 +175,6 @@ ensuring strict movie-disjoint splits.
 |--------|---------|-------------|---------------|
 | `--data-dir` | `./data` | Directory containing annotation JSON files | String (Path) |
 | `--output-dir` | `./data` | Output directory for index files | String (Path) |
-
----
 
 #### 3. `create_normalization_stats.py` — Compute Feature Normalization
 
@@ -213,8 +195,6 @@ features according to predefined feature groups.
 | `--data-dir` | `./data` | Directory containing `_frame.npy` files | String (Path) |
 | `--feature-groups` | `./doc/feature_groups.json` | Feature group definitions | String (Path) |
 | `--output-csv` | `./data/normalization_stats.csv` | Output CSV file | String (Path) |
-
----
 
 ### Post-processing Tools
 
@@ -245,8 +225,6 @@ top-k, percentage, or Pareto-optimal selection.
 | `--disable-size-buckets` | – | Disable size buckets | flag |
 | `--dry-run` | – | Do not copy files | flag |
 
----
-
 #### 5. `plot_importances.py` — Aggregate Feature Importances
 
 **Purpose:**  
@@ -270,8 +248,6 @@ multiple trained models.
 | `--axis-label-size` | `20` | Font size for axis labels. | Integer |
 | `--tick-label-size` | `18` | Font size for tick labels and feature names. | Integer |
 
----
-
 #### 6. `plot_predictions.py` — Scatter Plots
 
 **Purpose:**  
@@ -294,8 +270,6 @@ Generate scatter plots comparing ground truth vs. predicted values.
 | `--axis-label-size` | `22` | Font size for axis labels. | Integer |
 | `--tick-label-size` | `20` | Font size for axis tick labels. | Integer |
 
----
-
 #### 7. `create_report.py` — Aggregate Metrics Report
 
 **Purpose:**  
@@ -314,15 +288,11 @@ Aggregate evaluation metrics from multiple model runs into a single CSV file.
 | `--input-dirs` | – | Root directories containing trained model subdirectories with metrics files. | String[ ] (Path) |
 | `--output-path` | – | Target path for the aggregated CSV report. | String (Path) |
 
----
-
 ## Notes
 
 - All default paths align with `config.ini`
 - Each tool supports `--help` for full CLI documentation
 - Tools are intentionally decoupled from training to preserve modularity
-
----
 
 ## Central Configuration
 
@@ -344,14 +314,10 @@ This configuration file defines:
 The configuration is read-only at runtime and accessed consistently by all scripts.
 No experiment-relevant parameters are hard-coded elsewhere in the pipeline.
 
----
-
 ## Pipeline Overview (End-to-End)
 
 The full experimental pipeline is executed in the following conceptual order.
 Each step corresponds to one or more scripts in `scripts/`.
-
----
 
 ### 1. Feature Selection
 
@@ -376,8 +342,6 @@ Produces multiple feature-set JSON files.
 sets/*.json
 ```
 
----
-
 ### 2. Training Schedule Generation
 
 Generate a reproducible training schedule defining:
@@ -396,8 +360,6 @@ Generate a reproducible training schedule defining:
 ```
 schedules/schedule.json
 ```
-
----
 
 ### 3. Model Training
 
@@ -419,8 +381,6 @@ Train LightGBM regressors according to the generated schedule:
 - intermediate metrics
 - dataset parameter manifests
 
----
-
 ### 4. Evaluation and Testing
 
 Evaluate trained models on validation and test splits:
@@ -439,8 +399,6 @@ Evaluate trained models on validation and test splits:
 tests/
 ```
 
----
-
 ## Feature Groups
 
 Feature definitions and normalization strategies are specified in:
@@ -458,8 +416,6 @@ Each group defines:
 
 This file is used consistently across normalization, selection, and training.
 
----
-
 ## Output Artifacts
 
 Typical outputs produced by the pipeline include:
@@ -470,8 +426,6 @@ Typical outputs produced by the pipeline include:
 - scatter plots and feature importance visualizations (`plots/`)
 
 All outputs are uniquely traceable to a specific configuration and schedule.
-
----
 
 ## Contact
 
